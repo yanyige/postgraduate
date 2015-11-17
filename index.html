@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>PostGraduate</title>
+    <link rel="stylesheet" type="text/css" href="css/default.css"/>
+    <link rel="stylesheet" type="text/css" href="css/base.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-datetimepicker.min.css"/>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="sidebar">
+            <ul class="list-group">
+                <a href="#" class="list-group-item active">首页</a>
+                <a href="#" class="list-group-item">入学</a>
+                <a href="#" class="list-group-item">开题</a>
+                <a href="#" class="list-group-item">中期</a>
+                <a href="#" class="list-group-item">毕业</a>
+                <a href="#" class="list-group-item">评奖</a>
+            </ul>
+        </div>
+            <div class="header">
+                <div class="headInner">
+                </div>
+        </div>
+        <div class="nav">
+            <div class="navheader"></div>
+            <div id="carousel">
+                <div id="list" style="left:-1200px">
+                    <img src="image/carousel_bg4.jpg">
+                    <img src="image/carousel_bg1.jpg">
+                    <img src="image/carousel_bg2.jpg">
+                    <img src="image/carousel_bg3.jpg">
+                    <img src="image/carousel_bg4.jpg">
+                    <img src="image/carousel_bg1.jpg">
+                    <!--<div style="clear: both"></div>-->
+                </div>
+                <div id="buttons"><span index="1" class="on"></span><span index="2"></span><span index="3"></span><span index="4"></span><div style="clear:both"></div>
+                </div>
+                <a href="javascript:void(0)" class="arrow" id="prev">&lt;</a>
+                <a href="javascript:void(0)" class="arrow" id="next">&gt;</a>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h2>通知公告</h2>
+                    <hr style="height:10px;border:none;border-top:3px solid #259fc8;" />
+                    <p>1.haha</p>
+
+                    <p>2.xixi</p>
+
+                    <p>3.gaga</p>
+                </div>
+                <div class="col-lg-4">
+                    <h2>通知公告</h2>
+                    <hr style="height:10px;border:none;border-top:3px solid #259fc8;" />
+                    <p>1.haha</p>
+
+                    <p>2.xixi</p>
+
+                    <p>3.gaga</p>
+                </div>
+                <div class="col-lg-4">
+                    <h2>通知公告</h2>
+                    <hr style="height:10px;border:none;border-top:3px solid #259fc8;" />
+                    <p>1.haha</p>
+
+                    <p>2.xixi</p>
+
+                    <p>3.gaga</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-datetimepicker.min.js"></script>
+<script type="text/javascript" src="js/carousel.js"></script>
+<script>
+    $(document).ready(function(){
+        $('#datetimepicker').datetimepicker({
+            format: 'yyyy-mm-dd',
+            minView: 'month'
+        });
+    });
+</script>
+</html>
